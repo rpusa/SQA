@@ -1,0 +1,31 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+ int a,b,c,choice;
+ cout<<"Enter two numbers\n";
+ cin>>a>>b;
+ cout<<"Enter 1 for Addition and 2 for Multiplication\n";
+ switch(choice)
+ {
+  case 1:
+  c=a+b;
+  cout<<"Addition:\n";
+  cout<<c;
+  break;
+  
+  casev 2:
+  c=a*b;
+  cout<<"Multiplication:\n";
+  cout<<c;
+  break;
+  
+  default:
+  cout<<"Wrong Choice!";
+  break;
+ }
+ getch();
+}
+  
+  
+  
